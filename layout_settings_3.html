@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body class="pageSettings">
+    <div class="app app--settings" id="app">
+      <div class="containerApp containerApp--settings">
+        <div class="settingsHeader">
+          <div class="settingsHeader__text">Настройки</div>
+          <svg class="settingsHeader__close" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.51461 1.35789L18.4852 18.3284" stroke="#222222" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M1.51469 17.9853L18.4852 1.0147" stroke="#222222" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <div class="app__container app__container--settings">
+          <div class="app__asideSettings asideSettings">
+            <div class="asideSettings__infoBox">
+              <div class="asideSettings__header">Глобальные настройки</div>
+              <div class="asideSettings__txt">Профиль</div>
+              <div class="asideSettings__smallText">Каналы</div>
+            </div>
+            <div class="accountLoginWrapper">
+              <div class="accountLogin">
+                <div class="accountLogin__iconBox"><img class="accountLogin__icon" src="img/img_3.png">
+                  <div class="accountLogin__iconSecondaryBox"><img class="accountLogin__iconSecondary" src="img/social/img_1.png"></div>
+                </div>
+                <div class="accountLogin__nameBox">
+                  <div class="accountLogin__name">instagram_login</div>
+                </div>
+                <div class="accountLogin__status active"></div>
+              </div>
+              <div class="accountLogin">
+                <div class="accountLogin__iconBox"><img class="accountLogin__icon" src="img/img_1.png">
+                  <div class="accountLogin__iconSecondaryBox"><img class="accountLogin__iconSecondary" src="img/social/img_2.png"></div>
+                </div>
+                <div class="accountLogin__nameBox">
+                  <div class="accountLogin__name">another_login</div>
+                </div>
+                <div class="accountLogin__status"></div>
+              </div>
+              <div class="addInfo">
+                <div class="addInfo__iconBox">
+                  <div class="addInfo__icon">
+                    <div class="addInfo__line addInfo__line--horLine"></div>
+                    <div class="addInfo__line addInfo__line--verLine"></div>
+                  </div>
+                </div>
+                <div class="addInfo__nameBox">
+                  <div class="addInfo__name">Добавить канал</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app__contentProfile contentProfile">
+            <div class="contentProfile__container">
+              <div class="globalSettings__smallHeader">Настройки</div>
+              <div class="globalSettings__largeHeader globalSettings__largeHeader--profil">Профиль</div>
+              <form class="contentProfile__form" action="/"></form>
+              <div class="contentProfile__photoBox"><img class="contentProfile__photo" src="img/photo_1.png"></div>
+              <div class="contentProfile__inputFileBox">
+                <label class="contentProfile__inputFile" for="inputFile">Загрузить новое фото</label>
+                <input type="file" id="inputFile">
+              </div>
+              <div class="contentProfile__fileBottomText">Max размер 10Мб, формат png, jpg, gif</div>
+              <div class="globalSettings__boxOuter">
+                <div class="globalSettings__inputWrapper">
+                  <div class="globalSettings__inputBox">
+                    <div class="globalSettings__inputLabel">Имя</div>
+                    <input class="globalSettings__input" type="text" value="Кристина">
+                  </div>
+                  <div class="globalSettings__inputBox">
+                    <div class="globalSettings__inputLabel">Фамилия</div>
+                    <input class="globalSettings__input" type="text" value="Шереметьева">
+                  </div>
+                </div>
+              </div>
+              <div class="globalSettings__boxOuter">
+                <div class="globalSettings__inputWrapper">
+                  <div class="globalSettings__inputBox">
+                    <div class="globalSettings__inputLabel">Электронная почта</div>
+                    <input class="globalSettings__input" type="text" value="kristina@gmail.com">
+                  </div>
+                  <div class="globalSettings__inputBox">
+                    <div class="globalSettings__inputLabel">Телефон</div>
+                    <input class="globalSettings__input" type="text" value="+7">
+                  </div>
+                </div>
+              </div>
+              <div class="contentProfile__headerBox">
+                <div class="contentProfile__header">Часовой пояс</div>
+              </div>
+              <div class="globalSettings__selectBox">
+                <label class="globalSettings__label">Часовой пояс</label>
+                <div class="globalSettings__selectBox">
+                  <div class="globalSettingsSelect">
+                    <select>
+                      <option value="0">(GMT+3) Europe/Moscow - MSK</option>
+                      <option value="1">(GMT+3) Europe/Moscow - MSK</option>
+                      <option value="2" disabled>(GMT+3) Europe/Moscow - MSK</option>
+                      <option value="3">(GMT+3) Europe/Moscow - MSK</option>
+                      <option value="4">(GMT+3) Europe/Moscow - MSK</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="contentProfile__radioBoxOuterWrapper">
+                <div class="contentProfile__radioBoxOuter">
+                  <div class="contentProfile__radioRow">
+                    <div class="contentProfile__radioOuter">
+                      <div class="contentProfile__headerRadio">Формат времени</div>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio" checked>
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">12-ти часовой</div>
+                      </label>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio">
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">24-х часовой</div>
+                      </label>
+                    </div>
+                    <div class="contentProfile__radioOuter">
+                      <div class="contentProfile__headerRadio">Формат даты</div>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio1" checked>
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">MM/DD/YYYY</div>
+                      </label>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio1">
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">DD/MM/YYYY</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="contentProfile__radioBoxOuter">
+                  <div class="contentProfile__radioRow">
+                    <div class="contentProfile__radioOuter">
+                      <div class="contentProfile__headerRadio">Неделя начинается </div>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio2" checked>
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">С понедельника</div>
+                      </label>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio2">
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">С воскресенья</div>
+                      </label>
+                    </div>
+                    <div class="contentProfile__radioOuter">
+                      <div class="contentProfile__headerRadio">Вид календаря </div>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio3" checked>
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">Месяц</div>
+                      </label>
+                      <label class="contentProfile__radioBox">
+                        <input class="contentProfile__radioInput" type="radio" name="radio3">
+                        <div class="contentProfile__radio">
+                          <div class="contentProfile__radioInner"></div>
+                        </div>
+                        <div class="contentProfile__radioText">Неделя</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contentProfile__headerBox">
+                <div class="contentProfile__header">Уведомления</div>
+              </div>
+              <div class="contentProfile__checkedRowWrapper">
+                <div class="contentProfile__checkedRow">
+                  <label class="globalSettings__checkboxBtn checkboxBtn">
+                    <input class="checkboxBtn__input" type="checkbox">
+                    <div class="checkboxBtn__figure">
+                      <svg class="checkboxBtn__svg" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7L5 10L11 1" stroke="white" stroke-width="2"></path>
+                      </svg>
+                    </div>
+                  </label>
+                  <div class="contentProfile__checkedText">Уведомления в браузере</div>
+                </div>
+                <div class="contentProfile__checkedRow">
+                  <label class="globalSettings__checkboxBtn checkboxBtn">
+                    <input class="checkboxBtn__input" type="checkbox">
+                    <div class="checkboxBtn__figure">
+                      <svg class="checkboxBtn__svg" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7L5 10L11 1" stroke="white" stroke-width="2"></path>
+                      </svg>
+                    </div>
+                  </label>
+                  <div class="contentProfile__checkedText">Дневные отчеты на почту</div>
+                </div>
+                <div class="contentProfile__checkedRow">
+                  <label class="globalSettings__checkboxBtn checkboxBtn">
+                    <input class="checkboxBtn__input" type="checkbox">
+                    <div class="checkboxBtn__figure">
+                      <svg class="checkboxBtn__svg" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7L5 10L11 1" stroke="white" stroke-width="2"></path>
+                      </svg>
+                    </div>
+                  </label>
+                  <div class="contentProfile__checkedText">Недельные отчеты Facebook</div>
+                </div>
+              </div>
+              <div class="checkboxBtn__buttonsWrapper">
+                <button class="checkboxBtn__button">Отмена</button>
+                <button class="checkboxBtn__button active">Сохранить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="js/common.js"></script>
+  </body>
+</html>
